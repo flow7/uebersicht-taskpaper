@@ -1,9 +1,8 @@
-# Display TaskPaper tasks tagged aa @today but not tagged as done or archive
+# Description: Display TaskPaper tasks tagged as ....  but not tagged as done or archived
 # Version 1.0
-#todolistfile = '~/Documents/z_application\" \"data/Notational\" \"Data/today.txt'
 
 todolistfile = '~/Desktop/todo.taskpaper'
-searchtag = '@big3'
+searchtag = '@today'
 
 
 command: "cat #{todolistfile} | grep #{searchtag} | grep -v @done | grep -v Archive: |
