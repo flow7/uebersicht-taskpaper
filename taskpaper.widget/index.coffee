@@ -1,6 +1,8 @@
-# Description: Display TaskPaper tasks tagged as ....  but not tagged as done or archived
+# Description: Display TaskPaper tasks based on a searchtag - and not tagged as done or archived
 # Version 1.0
 
+
+# Adjust the following to your liking!
 todolistfile = '~/Desktop/todo.taskpaper'
 searchtag = '@today'
 
@@ -59,7 +61,7 @@ style: """
     font-weight: bold
   """
 
-
+# You might want to adjust the title as well.
 render: -> """
   <h>The Big 3 </h>
   <div class='taskpaper'></div>
