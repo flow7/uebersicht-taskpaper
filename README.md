@@ -1,7 +1,15 @@
 # uebersicht-taskpaper
 my VERY first hing ever on GitHub - an attempt to create an widget for uebersicht, that displays a selection of tasks from your taskpaper file
 
+## Why?
+
+- Because I wanted my big 3 tasks of the day on my Desktop
+- because I wanted to learn more about github
+
 ## How to
+
+
+## Issues
 
 
 ## ...
