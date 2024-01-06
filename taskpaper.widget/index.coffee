@@ -7,7 +7,7 @@ todolistfile = '~/Desktop/todo.taskpaper'
 searchtag = '@today'
 
 
-command: "cat #{todolistfile} | grep #{searchtag} | grep -v @done | grep -v Archive: |
+command: "cat #{todolistfile} | grep #{searchtag} | grep -v @done | grep -v Archive: | sed s/@today//g |
 awk 'BEGIN {print \"<ol>\"}
     {for (i=1; i<=NF; i++) {
       if (i == 1) {
